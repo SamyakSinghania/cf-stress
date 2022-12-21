@@ -1,0 +1,85 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Subscribe: CF Stress</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="/">CF Stress</a>
+    <button class="navbar-toggler" type="button" data-trigger="#main_nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse" id="main_nav">
+<!--        <div class="offcanvas-header mt-3">-->
+<!--            <button class="btn btn-outline-danger btn-close float-right"> &times Close</button>-->
+<!--            <h5 class="py-2 text-white">CF Stress</h5>-->
+<!--        </div>-->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home </a></li>
+            <li class="nav-item active"><a class="nav-link text-success" href="/pricing"> Pricing </a></li>
+            <li class="nav-item"><a class="nav-link" href="/status"> Status </a></li>
+            <li class="nav-item active"><a class="nav-link" href="/subscribe"> Mailing List </a></li>
+            <li class="nav-item"><a class="nav-link" href="https://codeforces.com/blog/entry/99278"> Blog </a></li>
+<!--            <li class="nav-item active"><a class="nav-link text-success" href="/purchase"> Purchase </a></li>-->
+
+<!--            <li class="nav-item active"><a class="nav-link" href="/user/login"> Login </a></li>-->
+
+        </ul>
+    </div>
+</nav>
+<div class="container">
+
+    <section style="padding-top: 15px;">
+
+        <p>
+            Want to be notified once the upcoming contests are added? <b>Subscribe to the mailing list.</b>
+        <form action='/subscribe' method='POST'>
+            <label for="email"><b>EMAIL ID</b></label>
+            <div class="input-group">
+                <input type="text" class="form-control" name="email" placeholder="abc@gmail.com">
+                <input type='submit' class="btn btn-success" value='Subscribe' target="_blank">
+            </div>
+        </form>
+        </p>
+
+    </section>
+</div>
+
+
+<div class="container">
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2022 Copyright:
+            Variety Jones
+            <br>
+            variety.jones.silk[at]gmail.com
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+<script src="/static/js/custom.js"></script>
+</body>
+</html>
+
+
+
+
+
+
